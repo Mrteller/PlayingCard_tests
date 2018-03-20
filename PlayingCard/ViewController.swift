@@ -9,17 +9,32 @@
 import UIKit
 
 class ViewController: UIViewController {
-
+    var deck = PlayingCardDeck()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+
+        for i in 0..<deck.cards.count {
+            if let card = deck.draw() {
+                print("\(card) - \(i)")
+            }
+        }
     }
 
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
 
+    private func t() {
+        let someDate = Date(timeIntervalSinceReferenceDate: 0)
+        let dFormatter = DateFormatter()
+        dFormatter.dateStyle = .full
+        let sString = dFormatter.string(from: someDate)
+        for ds in DateFormatter.Style.full.rawValue...DateFormatter.Style.short.rawValue  {
+            dFormatter.dateStyle = DateFormatter.Style.init(rawValue: ds) ?? .none
+        }
+        
+        //let dds = Set(DateFormatter.Style)
+    }
+    
+    
 
 }
 

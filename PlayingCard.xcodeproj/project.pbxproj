@@ -12,6 +12,8 @@
 		DA072BA92051612B007AC5B0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA072BA72051612B007AC5B0 /* Main.storyboard */; };
 		DA072BAB2051612B007AC5B0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DA072BAA2051612B007AC5B0 /* Assets.xcassets */; };
 		DA072BAE2051612B007AC5B0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA072BAC2051612B007AC5B0 /* LaunchScreen.storyboard */; };
+		DA072BB7205161D3007AC5B0 /* PlayingCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA072BB6205161D3007AC5B0 /* PlayingCard.swift */; };
+		DA282C98206037730047911E /* PlayingCardDeck.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA282C97206037730047911E /* PlayingCardDeck.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		DA072BAA2051612B007AC5B0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DA072BAD2051612B007AC5B0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DA072BAF2051612B007AC5B0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DA072BB6205161D3007AC5B0 /* PlayingCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayingCard.swift; sourceTree = "<group>"; };
+		DA282C97206037730047911E /* PlayingCardDeck.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayingCardDeck.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +58,24 @@
 		DA072BA22051612B007AC5B0 /* PlayingCard */ = {
 			isa = PBXGroup;
 			children = (
-				DA072BA32051612B007AC5B0 /* AppDelegate.swift */,
 				DA072BA52051612B007AC5B0 /* ViewController.swift */,
 				DA072BA72051612B007AC5B0 /* Main.storyboard */,
+				DA072BB6205161D3007AC5B0 /* PlayingCard.swift */,
+				DA282C97206037730047911E /* PlayingCardDeck.swift */,
 				DA072BAA2051612B007AC5B0 /* Assets.xcassets */,
-				DA072BAC2051612B007AC5B0 /* LaunchScreen.storyboard */,
+				DA072BB52051614F007AC5B0 /* Supporting Files */,
 				DA072BAF2051612B007AC5B0 /* Info.plist */,
 			);
 			path = PlayingCard;
+			sourceTree = "<group>";
+		};
+		DA072BB52051614F007AC5B0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DA072BA32051612B007AC5B0 /* AppDelegate.swift */,
+				DA072BAC2051612B007AC5B0 /* LaunchScreen.storyboard */,
+			);
+			path = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,6 +151,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				DA072BA62051612B007AC5B0 /* ViewController.swift in Sources */,
+				DA282C98206037730047911E /* PlayingCardDeck.swift in Sources */,
+				DA072BB7205161D3007AC5B0 /* PlayingCard.swift in Sources */,
 				DA072BA42051612B007AC5B0 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -167,6 +183,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -224,6 +241,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
