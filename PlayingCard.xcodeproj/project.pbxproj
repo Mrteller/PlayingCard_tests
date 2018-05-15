@@ -14,6 +14,7 @@
 		DA072BAE2051612B007AC5B0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA072BAC2051612B007AC5B0 /* LaunchScreen.storyboard */; };
 		DA072BB7205161D3007AC5B0 /* PlayingCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA072BB6205161D3007AC5B0 /* PlayingCard.swift */; };
 		DA282C98206037730047911E /* PlayingCardDeck.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA282C97206037730047911E /* PlayingCardDeck.swift */; };
+		DAEC7D5020610BC00046ED09 /* PlayingCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAEC7D4F20610BC00046ED09 /* PlayingCardView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		DA072BAF2051612B007AC5B0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DA072BB6205161D3007AC5B0 /* PlayingCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayingCard.swift; sourceTree = "<group>"; };
 		DA282C97206037730047911E /* PlayingCardDeck.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayingCardDeck.swift; sourceTree = "<group>"; };
+		DAEC7D4F20610BC00046ED09 /* PlayingCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayingCardView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 			isa = PBXGroup;
 			children = (
 				DA072BA52051612B007AC5B0 /* ViewController.swift */,
+				DAEC7D4F20610BC00046ED09 /* PlayingCardView.swift */,
 				DA072BA72051612B007AC5B0 /* Main.storyboard */,
 				DA072BB6205161D3007AC5B0 /* PlayingCard.swift */,
 				DA282C97206037730047911E /* PlayingCardDeck.swift */,
@@ -105,7 +108,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0920;
-				LastUpgradeCheck = 0920;
+				LastUpgradeCheck = 0930;
 				ORGANIZATIONNAME = Laconic;
 				TargetAttributes = {
 					DA072B9F2051612B007AC5B0 = {
@@ -153,6 +156,7 @@
 				DA072BA62051612B007AC5B0 /* ViewController.swift in Sources */,
 				DA282C98206037730047911E /* PlayingCardDeck.swift in Sources */,
 				DA072BB7205161D3007AC5B0 /* PlayingCard.swift in Sources */,
+				DAEC7D5020610BC00046ED09 /* PlayingCardView.swift in Sources */,
 				DA072BA42051612B007AC5B0 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -194,6 +198,7 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -201,6 +206,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -252,6 +258,7 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -259,6 +266,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
